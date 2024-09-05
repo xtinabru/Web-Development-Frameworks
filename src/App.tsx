@@ -3,9 +3,6 @@ import './App.css'
 import './ContactItem.css'
 
 
-
-
-
 function App() { 
 
   return <ShoppingCart />
