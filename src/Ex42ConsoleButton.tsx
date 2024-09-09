@@ -1,16 +1,16 @@
 
 import classes from './Ex41ConsoleButton.module.css'
 
-export default function Ex41ConsoleButton() {
+export default function Ex42ConsoleButton({ consoleText }) {
   
   function thisWillExecuteWhenOnClickHappens() {
-    console.log("Hello from ConsoleButton!"); 
+    console.log(consoleText); 
   }
   
   return (
     <div 
     onClick={thisWillExecuteWhenOnClickHappens}
-    className={ classes.button }>Ex41ConsoleButton
+    className={ classes.button }>Ex42ConsoleButton
     </div>
   )
 }

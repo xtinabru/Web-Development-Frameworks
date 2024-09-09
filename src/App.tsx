@@ -1,5 +1,6 @@
 import './App.css'
-import Ex41ConsoleButton from './Ex41ConsoleButton';
+import Ex43AlertButton from './Ex43AlertButton';
+
 
 function App() { 
 
@@ -15,7 +16,7 @@ function App() {
   return (
 
   <div>
-    <Ex41ConsoleButton/>
+    <Ex43AlertButton alertText="Alert"/>
   </div>
 
   )
