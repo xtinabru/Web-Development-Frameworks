@@ -1,21 +1,21 @@
 import './App.css'
-import Ex34ContactList from './Ex34ContactList';
+import Ex41ConsoleButton from './Ex41ConsoleButton';
 
 function App() { 
 
-  const persons = [
+  // const persons = [
    
-    {name: "John Rambo",address: "Armsway 1"},
+  //   {name: "John Rambo",address: "Armsway 1"},
 
-    { name: "Jill Rambo",address: "Armsway 1"},
+  //   { name: "Jill Rambo",address: "Armsway 1"},
 
-    {name: "Tim White",address: "Armsway 2"},
-  ]
+  //   {name: "Tim White",address: "Armsway 2"},
+  // ]
 
   return (
 
   <div>
-  <Ex34ContactList contacts={ persons }/>
+    <Ex41ConsoleButton/>
   </div>
 
   )
