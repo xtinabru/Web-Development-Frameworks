@@ -1,13 +1,13 @@
 import './App.css'
-import Ex4_10CharachterCounter2 from './exercises 4/Ex4_10CharachterCounter2';
+import Ex55OnKeyDown from './Ex55OnKeyDown';
+
 
 function App() { 
 
   return (
 
   <div>
-   <Ex4_10CharachterCounter2 outputType="alert" minLength={2} />
-   <Ex4_10CharachterCounter2 outputType="console" minLength={3} />
+  <Ex55OnKeyDown/>
   </div>
   )
 }
