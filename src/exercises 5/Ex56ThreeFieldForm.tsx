@@ -21,24 +21,20 @@ export default function Ex56ThreeFieldForm() {
     setDataSaved(true);
   }
 
-let formVisisbilityStyle = 'block';
-let stringVisibilityStyle = 'none';
+let output = ( <div >
+  <div><input type="text" onChange={handleFirstNameChange}/>First name</div>
+      <div><input type="text"  onChange={handleLastNameChange}/>Family name</div>
+      <div><input type="text" onChange={handleEmail}/>E-mail</div>
+      <div><button onClick={ savedButtonClicked }>Save</button></div>
+</div>);
+
 if(dataSaved == true){
-  formVisisbilityStyle = 'none'
-  stringVisibilityStyle = 'block'
+ output = ( <div >Saved {firstName} {lastName} ({emailAddress})</div>);
 }
 
   return (
     <div>
-
-    <div style={{display: formVisisbilityStyle }}>
-      <div><input type="text" onChange={handleFirstNameChange}/>First name</div>
-      <div><input type="text"  onChange={handleLastNameChange}/>Family name</div>
-      <div><input type="text" onChange={handleEmail}/>E-mail</div>
-      <div><button onClick={ savedButtonClicked }>Save</button></div>
-    </div>
-
-    <div style={{display: stringVisibilityStyle}}>Saved {firstName} {lastName} ({emailAddress})</div>
+      { output }
     </div>
   )
 }
