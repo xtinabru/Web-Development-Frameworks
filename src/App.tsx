@@ -1,5 +1,7 @@
 import './App.css'
-import Ex55OnKeyDown from './Ex55OnKeyDown';
+import Ex61RestaurantMenu from './exercise 6/Ex61RestaurantMenu';
+
+
 
 
 function App() { 
@@ -7,7 +9,7 @@ function App() {
   return (
 
   <div>
-  <Ex55OnKeyDown/>
+    <Ex61RestaurantMenu/>
   </div>
   )
 }
