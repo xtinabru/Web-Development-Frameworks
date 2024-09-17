@@ -1,7 +1,5 @@
 import './App.css'
-import Ex61RestaurantMenu from './exercise 6/Ex61RestaurantMenu';
-
-
+import Ex56ThreeFieldForm from './exercises 5/Ex56ThreeFieldForm';
 
 
 function App() { 
@@ -9,7 +7,7 @@ function App() {
   return (
 
   <div>
-    <Ex61RestaurantMenu/>
+    <Ex56ThreeFieldForm/>
   </div>
   )
 }
