@@ -21,7 +21,7 @@ export default function Ex56ThreeFieldForm() {
     setDataSaved(true);
   }
 
-let output = ( <div >
+let output = ( <div>
   <div><input type="text" onChange={handleFirstNameChange}/>First name</div>
       <div><input type="text"  onChange={handleLastNameChange}/>Family name</div>
       <div><input type="text" onChange={handleEmail}/>E-mail</div>
