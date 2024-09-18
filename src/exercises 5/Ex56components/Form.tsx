@@ -15,10 +15,10 @@ export default function Form({savedButtonClicked}) {
   function handleEmail(event){
     setEmailAddress(event.target.value);
   }
-
   function handleSaveButtonClick(){
     savedButtonClicked();
   }
+
 
   return (
     <div>
@@ -26,7 +26,7 @@ export default function Form({savedButtonClicked}) {
     <div><input type="text" onChange={handleFirstNameChange}/>First name</div>
     <div><input type="text"  onChange={handleLastNameChange}/>Family name</div>
     <div><input type="text" onChange={handleEmail}/>E-mail</div>
-    <div><button onClick={ savedButtonClicked }>Save</button></div>
+    <div><button onClick={ handleSaveButtonClick }>Save</button></div>
 
     </div>
   )
