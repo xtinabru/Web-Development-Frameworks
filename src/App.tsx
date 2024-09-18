@@ -1,21 +1,17 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css'
-import Ex59ColorBox from './exercises 5/Ex59ColorBox';
+import Ex510ParentComponent from './exercises 5/Ex510ParentComponent';
+
 
 
 function App() { 
 
-  const [color, setColor] = useState('');
-
-  function handleInputChange(event){
-    setColor(event.target.value)
-  }
+ 
 
   return (
 
   <div>
-  <input placeholder="Enter a color" type="text" onChange={handleInputChange}></input>
-  <Ex59ColorBox color={color}/>
+  <Ex510ParentComponent/>
   </div>
   )
 }
