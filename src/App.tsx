@@ -1,14 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css'
-import Ex4ExportImportTypes from './typescript exercises 16.09/Ex4ExportImportTypes';
-
+import Ex5ButtonComponent from './typescript exercises 16.09/Ex5ButtonComponent';
 
 function App() { 
 
+  const [count, setCount] = useState<number>(0);
+
+  const handleClick = () => {
+    setCount(count + 1)
+  }
   return (
 
   <div>
-   <Ex4ExportImportTypes userData={{firstName: "Clary", lastName: "Kent", age: 35}}/>
+    <h2>You clicked {count} times!</h2>
+   <Ex5ButtonComponent label="Click me" onClick={handleClick}/>
   </div>
   )
 }
