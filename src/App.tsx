@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'
-import Ex510ParentComponent from './exercises 5/Ex510ParentComponent';
+import Ex72Menu from './exercises7/Ex72Menu';
+
 
 
 
@@ -11,7 +12,7 @@ function App() {
   return (
 
   <div>
-  <Ex510ParentComponent/>
+  <Ex72Menu/>
   </div>
   )
 }
