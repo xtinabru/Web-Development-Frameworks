@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import RouterDemo from './RouterDemo 17.09/RouterDemo';
+import Ex61RestaurantMenu from './exercises 6 17.09/Ex61RestaurantMenu';
+
 
 function App() {
 
   return (
     <div>
-      <RouterDemo />
+      <Ex61RestaurantMenu/>
     </div>
   );
 }
