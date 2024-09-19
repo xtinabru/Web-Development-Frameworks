@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css'
-import Ex1Typescript from './typescript exercises 16.09/Ex1Typescript';
+import Ex2NameAsAnObject from './typescript exercises 16.09/Ex2NameAsAnObject';
+
 
 function App() { 
 
   return (
 
   <div>
-    <Ex1Typescript firstName={'Lora'} lastName={'Shore'} age={50}/>
+   <Ex2NameAsAnObject userData={{firstName: "Clark", lastName: "Kent", age: 35}}/>
   </div>
   )
 }
