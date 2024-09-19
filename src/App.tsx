@@ -7,7 +7,7 @@ function App() {
   return (
 
   <div>
-    <Ex1Typescript firstName={'Lora'} lastName={'Shore'}/>
+    <Ex1Typescript firstName={'Lora'} lastName={'Shore'} age={50}/>
   </div>
   )
 }
