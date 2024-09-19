@@ -1,18 +1,13 @@
 import React from 'react';
 import './App.css'
-import Ex72Menu from './exercises7/Ex72Menu';
-
-
-
+import Ex1Typescript from './typescript exercises 16.09/Ex1Typescript';
 
 function App() { 
-
- 
 
   return (
 
   <div>
-  <Ex72Menu/>
+    <Ex1Typescript firstName={'Lora'} lastName={'Shore'}/>
   </div>
   )
 }
