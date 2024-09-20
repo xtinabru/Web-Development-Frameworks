@@ -1,8 +1,16 @@
-import React from 'react'
-import { MenuCategoryProps } from './MenuTypes'
+import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 
-export default function MainCourses({MenuItems}: MenuCategoryProps)  {
+export default function MainCourses() {
   return (
-    <div>  { MenuItems.map(i => <div>{i.name}, {i.price}€</div>)}</div>
-  )
+    <div>
+      <h2>Main Courses</h2>
+      <nav>
+        <Link to="pizza">Pizza </Link>
+        <Link to="pasta">Pasta </Link>
+        <Link to="hamburgers">Hamburgers</Link>
+      </nav>
+      <Outlet />
+    </div>
+  );
 }
