@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
 import MyBooks from './exercise 8 18.09/MyBooks';
+import Ex82DynamicBookList from './exercise 8 18.09/Ex82DynamicBookList';
 
 function App() {
-
-  const books = ["War and Peace", "The Who", "Alice in Wonderland"]
-
   return (
     <div>
-    <MyBooks books={books}/>
+    <Ex82DynamicBookList/>
     </div>
   );
 }
