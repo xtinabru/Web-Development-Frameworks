@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Ex61RestaurantMenu from './exercises 6 17.09/Ex61RestaurantMenu';
-
+import MyBooks from './exercise 8 18.09/MyBooks';
 
 function App() {
 
+  const books = ["War and Peace", "The Who", "Alice in Wonderland"]
+
   return (
     <div>
-      <Ex61RestaurantMenu/>
+    <MyBooks books={books}/>
     </div>
   );
 }
