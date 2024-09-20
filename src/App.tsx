@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import MyBooks from './exercise 8 18.09/MyBooks';
-import Ex82DynamicBookList from './exercise 8 18.09/Ex82DynamicBookList';
+import Ex83FilteringList from './exercise 8 18.09/Ex83FilteringList';
 
 function App() {
   return (
     <div>
-    <Ex82DynamicBookList/>
+    <Ex83FilteringList/>
     </div>
   );
 }
