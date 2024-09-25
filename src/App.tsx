@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-
-import Ex92UncontrolledForm from './exercises 9/Ex92UncontrolledForm';
+import Ex93TextArea from './exercises 9/Ex93TextArea';
 
 
 function App() {
   return (
     <div>
-   <Ex92UncontrolledForm/>
+   <Ex93TextArea/>
     </div>
   );
 }
