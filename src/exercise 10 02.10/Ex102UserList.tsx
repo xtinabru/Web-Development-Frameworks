@@ -1,6 +1,14 @@
 import React from 'react'
 
-export default function Ex102UserList() {
+interface User {
+  firstName: string,
+  lastName: string
+}
+
+
+export default function Ex102UserList({ users }: {users: User[]}) {
+
+
   return (
     <div>
      <ul>

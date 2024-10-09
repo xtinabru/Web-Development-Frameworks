@@ -1,19 +1,21 @@
-import React, { useEffect, useState} from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function Ex101QuoteFetcher() {
 
-  const[quote, setQuote] = React.useState('')
+  const[quote, setQuote] = useState('')
 
-  useEffect(getMeTheQuote);
+  useEffect(getMeTheQuote, [])
 
   function getMeTheQuote(){
 
     fetch('https://api.quotable.io/random')
+
       .then(response => response.json())
       .then(data => {
-        setQuote(data.content)
-      });
     
+        setQuote(data.content)
+
+      }); 
   }
 
   return (
